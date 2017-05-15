@@ -22,10 +22,11 @@ Provides wrappers to some time series features. Many features are wrappers for f
 Compute a single feature. The initial ouput is just the original output of the function. The `clean_feature` function returns a dataframe with the feature.
 
 ```{r, echo = TRUE}
+library(tsfeats) 
 res <- fd_variogram(rnorm(1000))
 clean_feature(res)
 ```
-In the following example we generate two groups of functions from an ARMA model with varying parameters. The `get_feature` function computes and cleans features and returns a single dataframe.
+In the next example we generate two groups of functions from an ARMA model with varying parameters. The `get_feature` function computes and cleans features and returns a single dataframe.
 
 ```{r, echo = TRUE, warning = FALSE}
 # Generate 10 samples from 2 ARMA models
@@ -44,6 +45,7 @@ df2 <- get_features(t2, features, id = "2")
 df1[1, 1:5]
 ```
 A plot comparing the distribution of each feature for the two groups.
+
 ```{r, echo = TRUE, warning = FALSE}
 library(ggplot2)
 library(reshape2)
@@ -58,10 +60,11 @@ gg <- ggplot(data_long, aes(x=value, fill=id)) +
 gg + facet_wrap(~variable, ncol = 3, scales = "free") + 
         labs(x = "", y = "") + 
         scale_fill_manual(values = c("gray30","darkolivegreen"))
-
 ```
-#Installation 
-```{r, echo = TRUE}
-install("devtools") 
-install_github("nwaff/tsfeats")
+
+# Installation 
+
+```{r, echo = TRUE, eval = FALSE}
+install.packages("devtools") 
+devtools::install_github("nwaff/tsfeats")
 ```
