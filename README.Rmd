@@ -60,4 +60,8 @@ gg + facet_wrap(~variable, ncol = 3, scales = "free") +
         scale_fill_manual(values = c("gray30","darkolivegreen"))
 
 ```
-
+#Installation 
+```{r, echo = TRUE}
+install("devtools") 
+install_github("nwaff/tsfeats")
+```
