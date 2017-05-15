@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.travis\.yml$
+^tssims$
+^README\.Rmd$ 
+^NEWS\.md$  
