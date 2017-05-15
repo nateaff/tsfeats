@@ -43,7 +43,7 @@ df2 <- get_features(t2, features, id = "2")
 # Bandpower defaults to typical EEG frequency bands  
 df1[1, 1:5]
 ```
-A plot comparing of the distribution of each feature for the two groups.
+A plot comparing the distribution of each feature for the two groups.
 ```{r, echo = TRUE, warning = FALSE}
 library(ggplot2)
 library(reshape2)
