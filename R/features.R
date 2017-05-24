@@ -290,7 +290,6 @@ fd_variogram <- function(x){
 #' @param plot_pgram Plots default periodogram if TRUE 
 #' @return  A double or list of doubles representing the
 #'           signal's frequency in the given bandwidths
-#' 
 bp_pgram <- function(x, fs, freqs, 
                     psd = NULL, 
                     plot_pgram = FALSE){
