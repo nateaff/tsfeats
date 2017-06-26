@@ -48,6 +48,7 @@ get_one_feature <- function(tseries, feature){
 #'
 #' @param feature The feature to clean
 #' @importFrom plyr unrowname
+#' @export
 clean_feature <- function(feature) UseMethod("clean_feature")
 
 

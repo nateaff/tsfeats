@@ -17,4 +17,3 @@ Wrappter for fArma diffvarFit. The Hurst exponent
  is slope of the log-log fit of differenced sample
  variances against block size.
 }
-

@@ -30,7 +30,7 @@ permutation_entropy <- function(x){
 #' @importFrom pracma sample_entropy
 sample_entropy <- function(x){
   # cat("sample entropy \n" )
-  x <- c(x)
+  s <- c(x)
   ret <- pracma::sample_entropy(x)
   class(ret) <- "sample_entropy"
   ret

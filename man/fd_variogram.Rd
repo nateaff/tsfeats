@@ -16,4 +16,3 @@ The results from fd.estimate
 This function is a wrapper for the fd.estimate 
 function of the fractaldim package.
 }
-

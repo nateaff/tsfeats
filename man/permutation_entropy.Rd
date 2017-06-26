@@ -18,4 +18,3 @@ Calculates the permutation entropy of a time
  entropy over the embedding dimensions 3:7 is
  returned.
 }
-

@@ -15,4 +15,3 @@ The features
 \description{
 Compute epsilon complexity using csplines
 }
-

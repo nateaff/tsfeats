@@ -15,4 +15,3 @@ Sample entropy
 \description{
 Compute the sample entropy of the data
 }
-

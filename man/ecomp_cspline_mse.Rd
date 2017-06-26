@@ -17,4 +17,3 @@ The features
 Compute epsilon complexity using csplines with
  squared error.
 }
-

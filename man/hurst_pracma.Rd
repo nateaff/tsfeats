@@ -16,4 +16,3 @@ The features
 The pracma implementation of the corrected Hurst
  exponent
 }
-

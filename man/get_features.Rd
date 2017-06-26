@@ -24,4 +24,3 @@ A data frame with row of features for each time.
 \description{
 Extract set of features from a time series.
 }
-

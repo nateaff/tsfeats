@@ -12,4 +12,3 @@ clean_feature(feature)
 \description{
 Returns dataframe with feature(s)
 }
-

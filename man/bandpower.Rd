@@ -15,4 +15,3 @@ A data frame of power in each band
 \description{
 Computes the bandpower on a default set
 }
-

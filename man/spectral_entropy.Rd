@@ -16,4 +16,3 @@ return
 Computes the entropy of the binned spectrogram.
  Wrapper of ForeCA package function.
 }
-

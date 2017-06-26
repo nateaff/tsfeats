@@ -29,4 +29,3 @@ Estimates the power within the given frequency
  sum of power in bins within the frequency band
  is used as the estimate of that band's power.
 }
-

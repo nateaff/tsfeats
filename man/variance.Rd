@@ -15,4 +15,3 @@ The variance
 \description{
 Variance wrapper
 }
-
